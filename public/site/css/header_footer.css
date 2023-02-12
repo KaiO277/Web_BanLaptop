@@ -1,0 +1,149 @@
+/* <============= Header Styles =============>  */
+#header {
+  width: 100%;
+  font-size: 1.5rem;
+}
+.header-login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+   max-width: 1200px;
+  margin: 0 auto;
+}
+
+.acc-wrapper {
+  display: flex;
+}
+.acc-component {
+  cursor: pointer;
+  margin-left: 10px;
+}
+.acc-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.acc-search > i {
+  font-size: 1.8rem;
+}
+.header-nav {
+  background-color: var(--primary-color);
+}
+.header-nav.fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  box-shadow: 0 10px 20px 0px rgba(0,0,0,0.1);
+}
+.navigation {
+    max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  
+}
+.nav-list {
+  display: flex;
+}
+.nav-item {
+    transition: all 0.2s ease-in-out;
+}
+.nav-item:hover > .nav-link{
+    border-color: white;
+}
+.nav-item.active > .nav-link{
+   border-color: white;
+}
+.nav-link{
+    display:inline-block;
+    padding: 16px 12px;
+    color: white;
+    transition: all .2s ease-in-out;
+    border-bottom: 4px solid transparent;
+    white-space:nowrap;
+}
+.post {
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+.post:hover{
+     background-color: var(--primary-color-light);
+
+}
+.post > i{
+    margin-right: 5px;
+    font-size: 1.8rem;
+}
+
+
+
+/* <============= Footer Styles =============>  */
+#footer{
+  font-size: 1.4rem;
+  padding: 60px 0;
+  border-top: 2px solid var(--primary-color);
+}
+.footer-wrapper{
+  max-width: 1200px;
+  padding: 0 20px;
+  margin:0 auto;
+}
+.footer-info{
+  display:flex; 
+  margin-bottom: 30px;
+  flex-wrap:wrap;
+} 
+.footer-sec{
+  flex: 1;
+  padding: 0 10px;
+  min-width:180px;
+  margin: 20px;
+}
+.footer-title{
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+.info-link{
+  transition: all .2s ease-in-out;
+}
+.info-link >i {
+  font-size: 2rem;
+  display: inline-block;
+  margin: 5px 10px 0;
+  color: #13a75d;
+}
+.info-link:hover{
+  color: var(--primary-color);
+}
+.footer-license{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-top: 2px solid var(--primary-color);
+  flex-wrap:wrap;
+  gap:10px;
+}
+.f-logo > a > img{
+  max-width: 160px;
+  max-height: 80px;
+}
+
+.logo > a >img{
+  max-width: 195px;
+  max-height: 53px;
+  object-fit: cover;
+}
+
+

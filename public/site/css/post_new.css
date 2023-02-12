@@ -1,0 +1,476 @@
+ .nav-item>a:hover {
+ color: #fff;
+ }
+ .active{
+     display: none;
+ }
+  .post>span {
+     display: block;
+    
+      border-bottom: 4px solid #fff;
+      
+  }
+ .access_page{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+   
+     width: 100%;
+ }
+ .tieu-de{
+     width: 100%;
+     height: auto;
+     margin: 40px;
+
+ }
+ .page_title{
+    margin: 10px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 40px;
+    text-align: center;
+ }
+ .page-post{
+    width: 100%;
+    height: auto; 
+    right: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:  space-between;
+ }
+ .posting-instructions{
+    width: 360px;
+    height:350px ;
+    border: 1px solid  rgb(10, 172, 80);
+    margin-right: 200px;
+    border-radius: 10px ;
+    box-shadow: 10px 10px 10px grey;
+ }
+ .posting-instructions_header{
+     width: 100%;
+     height: auto;
+    color: #fff;
+    background-color:rgb(10, 172, 80);
+    border-radius: 10px 10px 0 0;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 700;
+    padding:0  0 5px 20px  ;
+    text-align: center;
+ }
+ .posting-instructions_body{
+     width: 100%;
+     height: auto;
+     font-size: 14px;
+     font-family: inherit;
+     font-weight: 700;
+     margin: 5px;
+     padding: 5px;
+ }
+ .posting-instructions_body ul li{
+     margin: 5px;
+ }
+ .posting-instructions_body .red_require{
+     color: rgb(255, 4, 4);
+ }
+ .info-thong_tin{
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 100px;
+ }
+ .gr-dia_chi{
+     width: 750px;
+     height: auto;
+     box-sizing: border-box;
+     border: 1px solid rgb(10, 172, 80);
+     box-shadow: 10px 10px 10px grey;
+     border-radius: 10px ;
+ }
+ .title-dia_chi{
+     width: 750px;
+     background-color: rgb(10, 172, 80) ;
+     height: 40px;
+    text-align: center;
+    border-radius: 10px 10px 0 0 ;
+    
+ }
+ .body-dia_chi{
+     width: 100%;
+     height: auto;
+    border:1px solid rgb(10, 172, 80);
+    border-radius: 0 0 10px 10px;
+ }
+ .form-gr{
+     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0 0 10px 10px;
+ }
+ .form-btns{
+ width: 40%;
+ display: flex;
+ flex-direction: column;
+ margin: 20px;
+ }
+ .form-btns label{
+     color: #000;
+     font-size: 14px;
+     font-weight: 700;
+ }
+ .form-btns span{
+     color: red;
+ }
+ .form-btns .btns-fix{
+     background-color: rgb(10, 172, 80);
+     color: #fff;
+     font-size: 14px;
+     font-weight: 700;
+ }
+ .form-btns .dropdown-new{
+     width: 100%;
+     height: 40px;
+     line-height: 40px;
+     text-align: center;
+     color: #fff;
+     font-size: 14px;
+     font-weight: 700;
+   
+ }
+  .drop-item_new{
+      margin-top: -5px !important;
+       
+      color: #fff !important;
+      font-size: 14px;
+      font-weight: 700 !important ;
+      font-family: inherit;
+      background-color: rgb(84,91,98) !important;
+       
+  }
+  .drop-item_new:hover{
+      background-color: rgb(10, 172, 80) !important;
+  }
+  .for-dia_chi{
+    margin: 20px;
+  }
+  .for-dia_chi label{
+    color: #000  ;
+    font-size: 14px;
+    font-weight: 700 !important ;
+    font-family: inherit;
+  }
+  .input-dia_chi{
+      border: 2px solid rgb(10, 172, 80);
+      width: 100%;
+      height: 40px;
+      line-height: 40px;
+      margin-bottom: 20px;
+      font-size: 14px;
+      font-weight: 700 !important ;
+      font-family: inherit;
+  }
+  .thong-tin_tro{
+      width: 750px;
+      height: auto;
+      box-shadow: 10px 10px 10px grey;
+      margin-top: 50px;
+      border-radius: 0 0 10px 10px;
+  }
+ 
+  .dientich-tro{ 
+    border: 1px solid rgb(10, 172, 80);
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 700 !important;
+    font-family: inherit;
+    position: relative;
+  }
+  .btn-dt_tro{
+      width: 30px;
+      height: 30px;
+      display: block;
+      background-color: rgb(10, 172, 80);
+      text-align: center;
+      line-height: 30px;
+      font-size: 14px;
+    font-weight: 700 !important;
+    font-family: inherit;
+    position: absolute;
+    right: 0;
+    bottom:20px;
+  }
+  .textarea-ip{
+      margin: 20px   ;
+      width: 100% ;
+      display: flex;
+      flex-direction: column;
+  }
+  .textarea-ip label{
+    line-height: 30px;
+    font-size: 14px;
+  font-weight: 700 ;
+  font-family: inherit;
+  }
+  .textarea-ip textarea{
+      border: 1px solid rgb(10, 172, 80);
+      width: 95%;
+      line-height: 30px;
+      font-size: 14px;
+    font-weight: 700 ;
+    font-family: inherit;
+  }
+
+
+  /*imgaes trọ*/
+  .images-tro{
+    width: 750px;
+      margin: 20px 0;
+      box-shadow: 10px 10px 10px grey;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border: 1px solid rgb(10, 172, 80);
+      border-radius: 10px ;
+  }
+  .images-main{
+      width: 750px;
+      height: auto;
+      
+   
+    }
+    .text-anh-inf{
+       
+        width: 90%;
+        height: auto;
+        margin: 20px;
+        
+    }
+    .text-anh-inf h6{
+        font-size: 14px;
+        font-family: inherit;
+        font-weight: 400;
+    }
+    .form-img{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .khung-chua-anh{
+        width: 90%;
+        height: auto;
+        line-height: 50px;
+        border: 1px dotted  rgb(10, 172, 80);
+        display: flex;
+        flex-direction: column;
+         margin-bottom: 20px;
+        align-items: center;
+         
+      
+    }
+    .chill-khung-chua-anh{
+        display: flex;
+       width: 100%;
+       height: auto;
+        justify-content: center;
+        margin-bottom:20px ;
+        flex-wrap: wrap;
+        
+    }
+    .chill-khung-chua-anh>img{
+        display: block;
+        width: 200px;
+        height: auto;
+        margin: 10px;
+    }
+    .khung-chua-anh>div{
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+         
+    }
+    .khung-chua-anh>div>h4:hover{
+        color:rgb(10, 172, 80);
+        font-size: 16px;
+    }
+    .form-video_youtube{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+         
+        
+    }
+    .title-form-video{
+        width: 90%;
+        height: 40px;
+        border: 1px solid rgb(10, 172, 80);
+         display: flex;
+         justify-content: flex-start;
+         margin: 20px;
+         border-radius: 3px;
+    }
+    .title-form-video>h5{
+        display: block;
+        width: 80%;
+        height: 20px;
+        line-height: 20px;
+        margin: 10px 0 10px 0;
+        font-size: 16px;
+        
+    }
+    .title-form-video>span{
+        display: block;
+        width: 20px;
+        height: 20px;
+        margin: 15px;
+        
+
+        
+    }
+    .title-form-video>span>i{
+        color: rgb(10, 172, 80);
+    }
+    .link-youtubr_form{
+        width:   90%;
+        height : 40px;
+        border-radius: 3px;
+        margin : 20px;
+        margin-bottom: 20px;
+    }
+    .link-youtubr_form>input{
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        color:rgb(35, 35, 35);
+        border : 1px solid rgb(10, 172, 80);
+         border-radius: 3px;
+    }
+    /* ed images*/
+
+
+    /* form lịch đăng tin*/
+    .lich-dang-tin{
+        margin: 20px 0 40px 0;
+        box-shadow: 10px 10px 10px grey;
+        border : 1px solid rgb(10, 172, 80);
+        border-radius:   10px;
+    }
+.form-lich-dang-tin{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.table-main{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    
+     
+    margin: 10px;
+    box-shadow: 1px 1px 1px grey;
+}
+    .table-dang-tin{
+        width: 100%;
+        height: auto;
+        border: 1px solid rgb(87, 87, 87);
+        font-family: inherit;
+        text-align: center;
+    }
+
+    .table-dang-tin>thead>tr>th{
+        border: 1px solid rgb(117, 117, 117);
+    }
+    .table-dang-tin>tbody,
+    .table-dang-tin>tbody>tr>td{
+        border: 1px solid rgb(117, 117, 117);
+        font-size: 16px;
+        
+    }
+    .table-dang-tin>tbody>tr>td>span{
+        color: #898989; font-size: 14px;
+    }
+.form-bold{
+    display: flex;
+    justify-content: flex-start;
+}
+.text-last-table{
+    width: 100%;
+    height: auto;
+    margin: 20px;
+}
+.text-last-table>h4{
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 700;
+    text-align: center;
+}
+.text-last-table>h4>span{
+    color:red;
+}
+
+/*btn-đăng tin*/
+.btn-dang-tin{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px;
+}
+.btn-dang-tin>button{
+    color: #fff;
+    background-color: rgb(10, 172, 80);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: inherit;
+    width: 300px !important;
+    background-color: rgb(38,186,201);
+} 
+/* rebonsive*/
+
+@media screen and (max-width: 1450px) {
+    .posting-instructions{
+        float: right;
+        margin-right: 30px;
+        
+    }
+   
+}
+.footer-deco{
+    display: block;
+    height: 45px;
+    width: 100%;
+    background-repeat:repeat-x ;
+    background: url(https://thuephongtro.com/images/footer_deco.png);
+    margin-bottom: -5px;
+}
+ 
+@media screen and (max-width: 1250px) {
+    .posting-instructions{
+        flex-shrink: 1
+     }
+     .info-thong_tin{
+          flex-shrink: 3;
+     }
+}
+
+
+@media screen and (max-width: 980px) {
+     .posting-instructions{
+         display: none;
+     }
+}
+
+ 

@@ -1,0 +1,9 @@
+<script src="{{ asset('public/js/client/jquery.js') }}"></script>
+	<script src="{{ asset('public/js/client/bootstrap.min.js') }}"></script>
+	<script src="{{ asset('public/js/client/jquery.scrollUp.min.js') }}"></script>
+	<script src="{{ asset('public/js/client/price-range.js') }}"></script>
+    <script src="{{ asset('public/js/client/jquery.prettyPhoto.js') }}"></script>
+    <script src="{{ asset('public/js/client/main.js') }}"></script>
+	<script src="{{ asset('public/js/client/contact.js') }}"></script>
+	<script src="{{ asset('public/js/client/gmaps.js') }}"></script>
+	<script src="{{ asset('public/js/client/html5shiv.js') }}"></script>
